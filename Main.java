@@ -28,8 +28,8 @@ class Main{
                 maxD = Math.max(maxD, currd + 1);  // +1 to count the current element
             }
             else {  // If equal, reset both (or could treat it as part of either)
-                curri = 0;
-                currd = 0;
+                curri++;
+                currd++;
             }
         }
         
